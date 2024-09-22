@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.header-left {
+  position: relative;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  background-color: #f4f5f7;
+  border: 1px solid #dfe1e6;
+  border-radius: 4px;
+  padding: 8px 12px;
+  transition: background-color 0.2s ease;
+}
+
+.filter-button:hover {
+  background-color: #e9ecef;
+}
+
+.filter-icon {
+  margin-right: 8px;
+}
+
+.chevron-icon {
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.filter-popup {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 220px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.filter-group {
+  margin-bottom: 15px;
+}
+
+.filter-group:last-child {
+  margin-bottom: 0;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #5e6c84;
+}
+
+.filter-group select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #dfe1e6;
+  border-radius: 4px;
+  background-color: #f4f5f7;
+  cursor: pointer;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #4c9aff;
+  box-shadow: 0 0 0 2px rgba(76, 154, 255, 0.2);
+}
